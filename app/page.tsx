@@ -9,7 +9,6 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-gray-900 text-white font-sans">
       
-      {/* ===== 1. NAVBAR ===== */}
       <nav className="bg-gray-800/70 backdrop-blur-md p-4 sticky top-0 shadow-lg z-10">
         <div className="container mx-auto flex justify-between items-center">
           <h1 className="text-2xl font-bold text-cyan-400">Vincen O. Ramadhan</h1>
@@ -21,7 +20,6 @@ export default function Home() {
         </div>
       </nav>
 
-      {/* ===== 2. HERO SECTION ===== */}
       <header id="hero" className="container mx-auto text-center py-24 md:py-32 px-6">
         
         <Image 
@@ -46,7 +44,6 @@ export default function Home() {
         </p>
       </header>
 
-      {/* ===== 3. ABOUT ME SECTION ===== */}
       <section id="about" className="py-20 bg-gray-800 px-6">
         <div className="container mx-auto max-w-3xl text-center">
           <h3 className="text-3xl font-bold mb-6 text-cyan-400">About Me</h3>
@@ -58,21 +55,19 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ===== 4. PROJECTS SECTION ===== */}
       <section id="projects" className="py-20 px-6">
         <div className="container mx-auto text-center">
           <h3 className="text-3xl font-bold mb-10 text-cyan-400">Featured Projects</h3>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             
-            {/* --- Project Card 1 --- */}
             <div className="bg-gray-800 p-6 rounded-lg shadow-xl transform transition-transform hover:scale-105 duration-300">
               <h4 className="text-xl font-bold mb-2">Sentiment Analysis (NLP)</h4>
               <p className="text-gray-400 mb-4">
                 A project analyzing public sentiment on a social media topic using Python and NLP techniques.
               </p>
               <a 
-                href="https://github.com/vincedegamont"
+                href="#"
                 target="_blank" rel="noopener noreferrer"
                 className="inline-block bg-gradient-to-r from-cyan-500 to-blue-600 text-white font-bold py-2 px-4 rounded transition-all duration-300 hover:from-cyan-400 hover:to-blue-500 hover:shadow-lg hover:shadow-cyan-500/50"
               >
@@ -80,7 +75,6 @@ export default function Home() {
               </a>
             </div>
             
-            {/* --- Project Card 2 --- */}
             <div className="bg-gray-800 p-6 rounded-lg shadow-xl transform transition-transform hover:scale-105 duration-300">
               <h4 className="text-xl font-bold mb-2">Image Classification (CNN)</h4>
               <p className="text-gray-400 mb-4">
@@ -95,7 +89,6 @@ export default function Home() {
               </a>
             </div>
 
-            {/* --- Project Card 3 --- */}
             <div className="bg-gray-800 p-6 rounded-lg shadow-xl transform transition-transform hover:scale-105 duration-300">
               <h4 className="text-xl font-bold mb-2">Data Visualization (R)</h4>
               <p className="text-gray-400 mb-4">
@@ -113,7 +106,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ===== 5. CONTACT FOOTER ===== */}
       <footer id="contact" className="py-10 bg-gray-950 text-center">
         <div className="container mx-auto">
           <p className="text-lg mb-4">Connect with me:</p>
