@@ -10,7 +10,7 @@ export default function Home() {
     <main className="min-h-screen bg-gray-900 text-white font-sans">
       
       {/* ===== 1. NAVBAR ===== */}
-      <nav className="bg-gray-800 p-4 sticky top-0 shadow-lg z-10">
+      <nav className="bg-gray-800/70 backdrop-blur-md p-4 sticky top-0 shadow-lg z-10">
         <div className="container mx-auto flex justify-between items-center">
           <h1 className="text-2xl font-bold text-cyan-400">Vincen O. Ramadhan</h1>
           <div className="space-x-4 md:space-x-6">
@@ -29,10 +29,10 @@ export default function Home() {
           alt="Profile Photo"
           width={150} 
           height={150} 
-          className="rounded-full mx-auto mb-6 border-4 border-cyan-400" 
+          className="rounded-full mx-auto mb-6 border-4 border-cyan-400 transition-all duration-300 hover:scale-110 hover:shadow-lg hover:shadow-cyan-400/50" 
         /> 
         
-        <h2 className="text-4xl md:text-6xl font-extrabold mb-4">
+        <h2 className="text-4xl md:text-6xl font-extrabold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 to-blue-500">
           Vincen Okta Ramadhan
         </h2>
         <p className="text-xl text-gray-400">
@@ -72,9 +72,9 @@ export default function Home() {
                 A project analyzing public sentiment on a social media topic using Python and NLP techniques.
               </p>
               <a 
-                href="#" 
+                href="https://github.com/vincedegamont"
                 target="_blank" rel="noopener noreferrer"
-                className="inline-block bg-cyan-500 text-gray-900 font-bold py-2 px-4 rounded hover:bg-cyan-400 transition-colors"
+                className="inline-block bg-gradient-to-r from-cyan-500 to-blue-600 text-white font-bold py-2 px-4 rounded transition-all duration-300 hover:from-cyan-400 hover:to-blue-500 hover:shadow-lg hover:shadow-cyan-500/50"
               >
                 View Code
               </a>
@@ -89,7 +89,7 @@ export default function Home() {
               <a 
                 href="#"
                 target="_blank" rel="noopener noreferrer"
-                className="inline-block bg-cyan-500 text-gray-900 font-bold py-2 px-4 rounded hover:bg-cyan-400 transition-colors"
+                className="inline-block bg-gradient-to-r from-cyan-500 to-blue-600 text-white font-bold py-2 px-4 rounded transition-all duration-300 hover:from-cyan-400 hover:to-blue-500 hover:shadow-lg hover:shadow-cyan-500/50"
               >
                 View Demo
               </a>
@@ -104,7 +104,7 @@ export default function Home() {
               <a 
                 href="#"
                 target="_blank" rel="noopener noreferrer"
-                className="inline-block bg-cyan-500 text-gray-900 font-bold py-2 px-4 rounded hover:bg-cyan-400 transition-colors"
+                className="inline-block bg-gradient-to-r from-cyan-500 to-blue-600 text-white font-bold py-2 px-4 rounded transition-all duration-300 hover:from-cyan-400 hover:to-blue-500 hover:shadow-lg hover:shadow-cyan-500/50"
               >
                 View Code
               </a>
@@ -133,7 +133,7 @@ export default function Home() {
               GitHub
             </a>
             <a 
-              href="https://www.linkedin.com/in/vincen-okta-ramadhan-1975ab322?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+              href="https://www.linkedin.com/in/vincen-okta-ramadhan-1975ab322"
               target="_blank" 
               rel="noopener noreferrer" 
               className="text-gray-400 hover:text-cyan-400 transition-colors"
